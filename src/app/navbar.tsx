@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 export default function Navbar(){
     return(
         <section id="navbar" className="w-full flex justify-between h-14 items-center mt-3 border-b-2 border-[rgba(244,241,244,0.09)]">
@@ -15,7 +16,7 @@ export default function Navbar(){
             </div>
 
             <a id="return" href="#html" className="w-12 h-12 flex items-center rounded-full fixed bottom-14 right-20 bg-[rgba(137,15,165,0.15)] hover:bg-[rgba(137,15,165,0.3)]">
-                <img src="up.svg" alt="" className="w-6 h-6 mx-auto"/>
+                <Image src="up.svg" alt="" className="w-6 h-6 mx-auto" width={1000} height={760}/>
             </a>
         </section>
     )
