@@ -11,15 +11,15 @@ export default function Awards(){
             
             <Grid style={{height: "17rem", fontWeight: "600", fontSize: "17px", textAlign:"center"}}
             teks={"3rd Rank Machine Learning Competition Data Slayer 1.0"} 
-            foto={"DataSlayerLogo.png"}/>
+            foto={"/DataSlayerLogo.png"}/>
 
             <Grid style={{height: "17rem", fontWeight: "600", fontSize: "17px", textAlign:"center"}}
             teks={"Awardee Beasiswa Unggulan"} 
-            foto={"BeasiswaUnggulan.jpg"}/>
+            foto={"/BeasiswaUnggulan.jpg"}/>
 
             <Grid style={{height: "17rem", fontWeight: "600", fontSize: "17px", textAlign: "center"}}
             teks={"Gold Medalist Kompetisi Sains Nasional Astronomi 2021"} 
-            foto={"KSNAstro.png"}/>
+            foto={"/KSNAstro.png"}/>
 
         </div>
     </section>

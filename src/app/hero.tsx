@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Hero(){
     return(
-        <section id='header' className="w-full flex flex-row h-96 items-center justify-between my-20">
+        <section id="header" className="w-full flex flex-row h-96 items-center justify-between my-20">
           <div id="nama" className="max-w-[50%]">
             <h1 className="font-extrabold text-4xl max-w-80">Guntara Hambali</h1>
             <h2 className="font-medium text-2xl max-w-80">Teknik Informatika ITB'23</h2>
